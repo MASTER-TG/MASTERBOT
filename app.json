@@ -100,13 +100,7 @@
     },
     "PM_MSG": {
       "description": "Enter Your custom pm permit msg.",
-      "value": "ʜᴇʟʟᴏ !
-✳️ ɪ'ᴍ ᴀᴛ ᴡᴏʀᴋ ʀɪɢʜᴛ ɴᴏᴡ🔥
-      ⚝ɪ ᴡɪʟʟ ʀᴇᴘʟʏ ᴛᴏ ʏᴏᴜ 📧
-➙ ᴜɴᴛɪʟ ᴛʜᴇɴ , ᴅᴏ ɴᴏᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴀɴʏᴍᴏʀᴇ ❌
-
-🛂ʏᴏᴜ ᴛᴏᴏ ᴡɪʟʟ ʙᴇ ʙʟᴏᴄᴋᴇᴅ ꜰʀᴏᴍ Ｍ𝚊̃𝚜𝚝𝚎̐𝚛⚝𝙱𝚘̃𝚃
-τнαиκγου!",
+      "value": "Hello ! I'm Work Right Now..I Will Reply To You, Until then, do not message me anymore you too will be blocked from Ｍ𝚊̃𝚜𝚝𝚎̐𝚛⚝𝙱𝚘̃𝚃 thank you !!",
       "required": false
     },
     "MAX_FLOOD_IN_PM": {
