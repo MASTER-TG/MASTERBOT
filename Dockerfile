@@ -1,5 +1,5 @@
 #Repo Clonning ⚡♥️
-RUN git clone https://github.com/MASTER-TG/MASTERBOT.git /root/userbot
+RUN git clone https://github.com/MASTER-TG/MASTER-USERBOT.git /root/userbot
 
 #working directory 
 WORKDIR /root/userbot
