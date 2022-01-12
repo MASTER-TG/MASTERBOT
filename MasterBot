@@ -1,0 +1,48 @@
+
+
+_get_repolink () {
+    local regex
+    regex='(https?)://github.com/.+/.+'
+    if [[ $MASTER_REPO == "MASTERBOT" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+    elif [[ $MASTER_REPO == "MASTERBOT" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+    elif [[ $MASTER_REPO =~ $regex ]]
+    then
+        if [[ $MASTER_REPO_BRANCH ]]
+        then
+            echo "${MASTER_REPO}/archive/${MASTER_REPO_BRANCH}.zip"
+        else
+            echo "${MASTER_REPO}/archive/master.zip"
+        fi
+    else
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1MZWdlbmRCb3QvTEVHRU5EVVNFUkJPVC9hcmNoaXZlL0xlZ2VuZEJvdC56aXA=" | base64 -d
+    fi
+}
+
+
+_setting_bot () {
+    local zippath
+    zippath="MasterBot.zip"
+    echo "  Downloading MasterBot V3.O Source Code..."
+    wget -q $(_get_repolink) -O "$zippath"
+    echo "  Unpacking Data ..."
+    MASTERPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    unzip -qq "$zippath"
+    echo "Done"
+    echo "      MasterBot V3.O Cleaning.."
+    rm -rf "$zippath"
+    sleep 5
+    cd $MASTERPATH
+    echo "    🔥Starting Ｍ𝚊̃𝚜𝚝𝚎̐𝚛⚝Ｂ𝚘̃𝚃🔥     "
+    echo "
+    🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳
+    "
+
+    python3 ../setup/updater.py ../requirements.txt requirements.txt
+    python3 -m userbot
+}
+
+_setting_bot
