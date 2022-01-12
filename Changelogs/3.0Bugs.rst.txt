@@ -1,0 +1,39 @@
+
+- BUGS AND SUGGESTIONS 
+    - `New Command .block Plugin name ~ pm_permit`
+
+    - `Update In .mmf and .memify Plugin name ~ memify `
+           
+    - `Check New Plugin Plugin Name ~ globals`
+  
+    - `Fixed Some Bugs In Plugin Name ~ sudo`
+
+    - ` New Ai ChatBot Plugin Name ~ chatbot`
+ 
+    - ` Some new Commands In Plugin Name ~ spam`
+
+    - ` If U Want To Use .install or .eval First U Have To Turn On Eval Cmd.`
+
+    - `To Turn On Eval Cmd ~ .set var EVAL ON`
+
+    - `If U Want To Use More Plugin Which Is Uploaded On Channel That Will Also Install So First Turn On Pluggin`
+
+    - `To Turn On Plugin ~ .set var PLUGIN ON`
+
+    - ` If Assistant = ON Then Add Ur Assistant To Logger Group `
+
+    - ` Some bugs Fixed Of cmd .on`
+    
+    - `New Design of Cmd .update `
+
+    - `Bugs Fixed of Translate Plugin. Plugin Name ~ translate`
+
+    - `Check New Plugins. Plugin Name ~ fileconverter`
+    
+    - `Now U can Spam A Group Through Bot Token Add Ur Assistant In Any Group. & Use Command /spam <value> <text>`
+
+    - `Sorry for Command .img Some bugs In image Plugin I fixed it soon`
+
+- [LEGENDBOY](http://t.me/The_LegendBoy)
+- ANY BUGS SEND IN COMMENTS
+- `Do .plinfo <plugin name> to know more about it`
