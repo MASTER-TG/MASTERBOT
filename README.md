@@ -2,7 +2,7 @@
 <b> ▏Ｍ𝚊̃𝚜𝚝𝚎̐𝚛⚝𝙱𝚘̃𝚃▕ 🇮🇳 </b>
 </h1>
 
-[![MASTERBOT](https://te.legra.ph/file/e758b20be0b21e7090347.jpg)](https://github.com/MASTER-OP/MASTERUSERBOT)
+[![MASTERBOT](https://te.legra.ph/file/f02cc84bf1ca448774592.jpg)](https://github.com/MASTER-OP/MASTERUSERBOT)
 
 <h6 align="center">
   <b>⚡️ MasterBot Is The Fastest & Smoothest Bot On Telegram Based on Telethon⚡️</b>
@@ -66,7 +66,7 @@
 `git clone https://github.com/MASTER-TG/MASTERBOT.git`
 - Open Cloned Folder.
 
-`cd LEGENDUSERBOT`
+`cd MASTERUSERBOT`
 - Create VirtualEnv.
 
 `virtualenv -p /usr/bin/python3 venv`
@@ -75,11 +75,11 @@
 - Install Requirements.
 
 `pip install -U -r requirements.txt`
-- Generate Legend STRING.
+- Generate MASTER STRING.
 
 `python MasterString.py`
 - Create config.py or rename exampleconfig.py to config.py. Fill All The Required Variables.
-- Finally Start LegendBot By Vps
+- Finally Start MasterBot By Vps
 
 `bash ./MASTERBOT/start.sh`
 
@@ -127,7 +127,7 @@
 - Paste the OTP received on Telegram.
 - If You have Enabled 2-Step Verification then fill your password.
 - Note that Termux Doesn't show passwords when filled. Just paste your password and hit enter.
-- Your LegendBot Session Will be saved in your Telegram Saved Message.
+- Your MasterBot Session Will be saved in your Telegram Saved Message.
 
 
 ------
